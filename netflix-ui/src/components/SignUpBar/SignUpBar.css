@@ -1,0 +1,17 @@
+.signup-form {
+}
+.signup-form-container {
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.signup-form-heading {
+  font-size: 1.25rem;
+  font-weight: 400;
+
+  line-height: 1.5;
+
+  text-align: center;
+
+  text-wrap: wrap;
+}

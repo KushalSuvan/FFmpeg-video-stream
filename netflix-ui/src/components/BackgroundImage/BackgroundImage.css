@@ -1,0 +1,38 @@
+.background-image-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  z-index: -100;
+}
+
+.background-image {
+  height: 100%;
+  width: 100%;
+
+  transform: scale(1.25) translateY(-10%);
+
+  object-fit: cover;
+}
+
+.background-bottom-vignette {
+  position: absolute;
+
+  top: 0px;
+  left: 0px;
+
+  height: 100%;
+  width: 100%;
+
+  z-index: 1;
+
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
