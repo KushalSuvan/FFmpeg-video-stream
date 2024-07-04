@@ -15,3 +15,20 @@
 
   text-wrap: wrap;
 }
+
+.signup-form-main {
+  margin: 1rem auto;
+  display: flex;
+}
+
+.signup-input-block {
+  position: relative;
+}
+
+.signup-label {
+  position: absolute;
+}
+
+.signup-input {
+  background-color: transparent;
+}
