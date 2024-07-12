@@ -19,9 +19,9 @@ const SignUpBar = () => {
       const signInMethods = await fetchSignInMethodsForEmail(auth, email);
 
       if (signInMethods.length > 0) {
-        navigate("/login", { state: email });
+        navigate("/login", { state: { email: email } });
       } else {
-        navigate("/signup", { state: email });
+        navigate("/signup/registration", { state: { email: email } });
       }
     } catch (error) {
       console.log(error);
