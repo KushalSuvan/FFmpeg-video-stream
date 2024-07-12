@@ -1,6 +1,6 @@
-import BackgroundImage from "../components/BackgroundImage/BackgroundImage";
-import HomeHeader from "../components/HomeHeader/HomeHeader";
-import SignUpBar from "../components/SignUpBar/SignUpBar";
+import BackgroundImage from "../../components/BackgroundImage/BackgroundImage";
+import HomeHeader from "../../components/HomeHeader/HomeHeader";
+import SignUpBar from "../../components/SignUpBar/SignUpBar";
 import "./Home.css";
 
 const Home = () => {
