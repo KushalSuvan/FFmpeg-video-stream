@@ -9,6 +9,9 @@ import SignUpLayout from "./layouts/SignUpLayout";
 import "./index.css";
 import Registration from "./pages/SignUp/Registration.jsx";
 import RegistrationForm from "./pages/SignUp/RegistrationForm.jsx";
+import VerifyEmail from "./pages/SignUp/VerifyEmail.jsx";
+
+import SignOut from "./pages/SignOut/SignOut.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -18,9 +21,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route index element={<Home />} />
           <Route path="signup" element={<SignUpLayout />}>
             <Route path="registration" element={<Registration />}></Route>
-            <Route path="regform" element={<RegistrationForm />} />
+            <Route path="regform" element={<RegistrationForm />}></Route>
+            <Route path="verifyemail" element={<VerifyEmail />} />
           </Route>
           <Route path="login" element={<Login />}></Route>
+          <Route path="signout" element={<SignOut />} />
         </Route>
       </Routes>
     </BrowserRouter>
