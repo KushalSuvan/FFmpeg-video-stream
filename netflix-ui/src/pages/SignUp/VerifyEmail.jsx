@@ -26,7 +26,7 @@ const VerifyEmail = () => {
       </p>
       <div className="regform-link-wrapper">
         <Link
-          to="/signup/regform"
+          to="/signup"
           state={{ email: email }}
           tabIndex="0"
           className="regform-link"
@@ -110,9 +110,10 @@ const Wrapper = styled.div`
     width: 100%;
 
     text-align: center;
+    vertical-align: middle;
     /*letter-spacing: 0.025rem;*/
 
-    line-height: 24px;
+    line-height: 32px;
   }
 
   .regform-link:hover {
