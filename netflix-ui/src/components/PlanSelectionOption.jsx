@@ -98,7 +98,7 @@ const PlanSelectionOptionWrapper = styled.div`
     font-size: 12px;
     font-weight: 600;
 
-    transition: background-color 250 0 ease-in-out;
+    transition: background-color 250ms ease-in-out 0s;
   }
 
   &.focused .most-popular {
